@@ -8,6 +8,7 @@ verify_ssl = true
 [packages]
 pandas = "*"
 dash = "==1.8.0"
+dash-bootstrap-components = "*"
 
 [requires]
 python_version = "3.7"
