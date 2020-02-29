@@ -18,7 +18,9 @@ app.layout = html.Div([
 )
 def display_page(pathname):
     if pathname=='/dashboard':
-        return dashboard.body
+        return dashboard.layout
+    elif pathname == '/':
+        return dashboard.layout
     else:
         return '404'
 
